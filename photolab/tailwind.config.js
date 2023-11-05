@@ -2,6 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
+    colors: {
+      'realWH':'#FFFFFF',
+      'muteBg': '#F9FAFB',
+      'mainBlack':'#2A2A2A',
+      'toneDownTxt':'#424242',
+      'grey':'#848484'
+    },
     extend: {},
   },
   plugins: [],
