@@ -1,8 +1,8 @@
-import logo from '../assets/Logo.svg'
+import logo from '../../assets/Logo.svg'
 
 const Header = () => {
   return(
-    <div className=' w-[1440px] h-[60px] flex justify-center items-center fixed z-30 top-0 bg-realWH'>
+    <div className=' w-[1440px] h-[60px] flex justify-center items-center fixed z-30 top-0 bg-realWH border-b-0.5 border-["#B8B8B8"]'>
       <div className=' flex items-center justify-between w-[960px]'>
         <img src={logo} alt="logoImage" className='w-[112px] h-[24px]' />
         <div className=' w-[300px] flex justify-between'>

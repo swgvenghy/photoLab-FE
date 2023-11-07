@@ -1,5 +1,4 @@
-import Header from "../components/Header"
-import CompetitionSmall from "../components/CompetitionSmall"
+import Header from "../components/default/Header"
 import mainView from '../assets/mainView.png'
 import { useNavigate } from "react-router-dom"
 import MainCompetition from "../components/Home/MainCompetition"
