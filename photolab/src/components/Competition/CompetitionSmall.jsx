@@ -1,7 +1,7 @@
-import heart from '../../assets/heart.svg'
-import FilledHeart from '../../assets/Fillheart.svg'
+
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Heart from '../default/Heart'
 
 const CompetitionSmall = () => {
   const navigate = useNavigate();
@@ -21,14 +21,7 @@ const CompetitionSmall = () => {
               <div className=' text-neutral-700 text-xs font-medium font-["Pretendard"]'>좋아요 n개</div>
             </div>
           </div>
-          
-          <div>
-            {
-              heartState === false 
-              ? <img src={heart} onClick={heartClicked} className=' pt-[9px]'/>
-              : <img src={FilledHeart} onClick={heartClicked}/>
-            }
-          </div>
+          <Heart/>
         </div>
       </div>
     </div>
