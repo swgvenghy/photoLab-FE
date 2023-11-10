@@ -8,6 +8,7 @@ import CompetitionImage from './components/Competition/CompetitionImage';
 import ImageDetail from './pages/ImageDetail';
 import Store from './redux/Store.jsx'
 import { Provider } from 'react-redux'
+import CompetitionList from './pages/CompetitionList.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path='/competitionvote' element={<CompetitionVote/>}/>
         <Route path='/test' element={<CompetitionImage/>}/>
         <Route path='/imageDetail' element={<ImageDetail/>}/>
+        <Route path='/competitionList' element={<CompetitionList/>}/>
       </Routes>
     </BrowserRouter>
   </Provider>

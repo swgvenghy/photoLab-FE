@@ -4,6 +4,7 @@ import MainCompetition from "../components/Home/MainCompetition"
 import Exhibition from "../components/Home/Exhibition"
 import { useSelector } from "react-redux"
 const Home = () => {
+  
   const homeData = useSelector((state) => state.home);
   return(
     <div>
