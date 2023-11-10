@@ -11,8 +11,8 @@ const Heart = () => {
     <div>
       {
         heartState === false 
-        ? <img src={heart} onClick={heartClicked} className=' pt-[9px]'/>
-        : <img src={FilledHeart} onClick={heartClicked} className=' pt-[9px]'/>
+        ? <img src={heart} onClick={heartClicked} className=' pt-[9px] cursor-pointer'/>
+        : <img src={FilledHeart} onClick={heartClicked} className=' pt-[9px] cursor-pointer'/>
       }
     </div>
   )
