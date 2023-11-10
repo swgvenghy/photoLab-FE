@@ -11,8 +11,10 @@ module.exports = {
       'stone':'#825B3D'
     },
     borderWidth: {
-      default: '0px',
-      '0.5': '0.5px'
+      default: '1px',
+      '0.5': '0.5px',
+      '2': '2px',
+      '3': '3px',
     },
     extend: {},
   },
