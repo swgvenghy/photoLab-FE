@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 
 const CompetitionList = () => {
   const competitionListData = useSelector((state) => state.competitionList);
-
   return(
     <div className=" w-[1440px]">
       <Header/>
