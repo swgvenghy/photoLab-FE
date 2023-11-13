@@ -1,6 +1,6 @@
-import DisplayImage from "../components/Detail/DisplayImage";
-import Header from "../components/default/Header";
-import Heart from "../components/default/Heart";
+import DisplayImage from "../../components/Detail/DisplayImage";
+import Header from "../../components/default/Header";
+import Heart from "../../components/default/Heart";
 import { useSelector } from "react-redux";
 
 const ImageDetail = () => {

@@ -1,5 +1,5 @@
-import CompetitionForm from "../components/competitionList/CompetitionForm";
-import Header from "../components/default/Header"
+import CompetitionForm from "../../components/competitionList/CompetitionForm";
+import Header from "../../components/default/Header"
 import { useSelector } from "react-redux";
 
 const CompetitionList = () => {

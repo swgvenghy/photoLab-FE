@@ -1,6 +1,6 @@
-import CompetitionSmall from "../components/Competition/CompetitionSmall";
-import Header from "../components/default/Header";
-import CompetitionImage from "../components/Competition/CompetitionImage";
+import CompetitionSmall from "../../components/Competition/CompetitionSmall";
+import Header from "../../components/default/Header";
+import CompetitionImage from "../../components/Competition/CompetitionImage";
 import { useSelector } from "react-redux";
 
 const CompetitionVote = () => {
