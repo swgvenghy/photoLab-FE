@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import HomeCompetitionImage from "./HomeCompetitionImage";
+import CompetitionImage from "./CompetitionImage";
 
 const MainCompetition = ({homeData}) => {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ const MainCompetition = ({homeData}) => {
         </div>
         <div className=" w-[720px] flex flex-wrap justify-end">
           {bestPhotos.map((image, index) => {
-            return(<HomeCompetitionImage homeData={homeData} photoInfo={bestPhotos[index]} />)
+            return(<CompetitionImage homeData={homeData} photoInfo={bestPhotos[index]} />)
           })}
         </div>
       </div>
