@@ -5,21 +5,24 @@ import { useSelector } from "react-redux";
 
 const CompetitionVote = () => {
   const competitionDetail = useSelector((state) => state.competitionDetail)
-  const competitionPhotos = competitionDetail.photoDtos
   return(
     <div className=" w-[1440px] ">
       <Header/>
       <div className=" flex flex-col mt-[50px] items-center">
         <CompetitionImage competitionDetail={competitionDetail}/>
         <div className=" mx-[240px] flex flex-wrap pt-[50px]">
-          {
-            competitionPhotos.map((a,i) => {
-              const competitionPhotoOne = competitionPhotos[i]
-              return(
-                <CompetitionSmall competitionPhotoOne={competitionPhotoOne}/>
-              )
-            })
-          }
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
+          <CompetitionSmall/>
         </div>
       </div>
     </div>
